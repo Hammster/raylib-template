@@ -1,11 +1,8 @@
 #include "lib.h"
 #include "raylib.h"
 
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 int main(void)
 {
-    
-
     // Initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
@@ -13,7 +10,6 @@ int main(void)
 
     InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
     
-    WindowsInitHelper();
     SetTargetFPS(60);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
 
